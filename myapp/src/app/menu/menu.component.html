@@ -1,0 +1,7 @@
+<h1 class="title">OUR MENU</h1>
+<div class="gridContainer">
+    <div *ngFor="let item of items" class="menuItem">
+        <h3>{{ item.name }}</h3>
+        <img src={{item.imageUrl}} alt={{item.name}}>
+    </div>
+</div>
